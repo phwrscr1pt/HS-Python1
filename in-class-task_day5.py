@@ -1,4 +1,4 @@
-### In-class Task:
+# ### In-class Task:
 
 # Write a program to check the input $x$ :
 
@@ -6,8 +6,23 @@
 
 # Instead, if $x$ is not an even number, print "D"
 
+# Test cases:
 
-number = int(input())
+# $x = 3$ -> D
+
+# $x = 4$ -> B
+
+# $x = 12$ -> C
+
+# $x = 182$ -> B
+
+# $x = 0$ -> C
+
+# $x = -7$ -> D
+
+# $x = 1.5$ -> D
+
+number = float(input())
 if number % 2 == 0:
     if number % 3 != 0 :
         print("B")
